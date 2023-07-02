@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to the"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Match Pairs Memory Game!"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Get ready to challenge your memory and test your concentration skills in this exciting Android application. The objective of the game is simple: match all the pairs of buttons as quickly as possible while keeping track of your move counts."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="When you touch the 'Play' button on the main menu, the game board will appear with several buttons arranged in a grid. Each button contains a randomly assigned emoji, and your task is to find the matching pairs. Remember the locations of the buttons as you start tapping them one by one."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="When you touch two buttons, they will reveal their emojis. If you find a matching pair, the buttons will disappear, leaving you with fewer options to remember. Keep tapping buttons and finding matches until you uncover all the pairs."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="As you play, the app will keep track of your move counts and display them at the top of the screen. Try to complete the game with as few moves as possible to improve your score and challenge yourself."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Once you have successfully matched all the pairs, the final result will be displayed at the top of the screen. You can then choose to continue playing a new game by touching the 'Continue' button at the bottom."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="If you want to check your progress and view your previous records, simply touch the 'Your Records' button on the main menu. The app will load your records from the GamesLog table in the local database, allowing you to analyze your performance over time."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Are you ready to put your memory to the test? Let's start matching pairs and see how well you can remember!"
+        android:textSize="15sp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+
+</LinearLayout>
+
