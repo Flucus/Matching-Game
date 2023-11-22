@@ -1,2 +1,31 @@
 # Matching-Game
-This is a matching game, which is made by Android Studio. The objective of the game is to match pairs of buttons as quickly as possible while keeping track of move counts. Upon launching the application and selecting the 'Play' button, users are presented with a game board consisting of buttons arranged in a grid. Each button contains a randomly assigned emoji. The goal is to find and match all the pairs by tapping the buttons. When users tap two buttons, the emojis they contain are revealed. If the buttons form a matching pair, they disappear, reducing the number of buttons left to uncover. Users continue tapping buttons, finding matches, and gradually revealing more pairs. The application tracks users' move counts and timer, displaying them at the top of the screen. Users are encouraged to complete the game with as few moves as possible to improve their score and challenge themselves. Once all pairs are successfully matched, the result is displayed, and users can choose to continue playing a new game by selecting the 'Continue' button. To review their progress and view previous records, users can access the 'Your Records' section on the main menu. This feature retrieves data from the Games Log table in the local database, enabling users to analyze their performance over time.
+
+## Introduction
+Matching-Game is a fun and engaging puzzle game developed for Android using Android Studio. The game challenges players to match pairs of emojis under a time constraint, promoting quick thinking and memory skills.
+
+## Gameplay
+The game presents a grid of buttons, each hiding a random emoji. Players tap to reveal the emoji and must remember its location to match it with its pair. Matched pairs disappear, and the goal is to clear the board.
+
+## Features
+- A dynamic grid of buttons with random emojis
+- A move counter and timer to track performance
+- A 'Your Records' section to view past scores
+- Persistent data storage for game records
+
+## How to Play
+1. Launch the app and hit 'Play'.
+2. Tap buttons to reveal emojis.
+3. Find and match all pairs to win.
+4. Aim for the lowest move count to improve your score.
+
+## Records and Scoring
+Your move count and time taken are tracked for each game. After completing the game, your result is displayed, and you can compare it to previous attempts in the 'Your Records' section.
+
+## Getting Started
+Clone the repo and import the project into Android Studio. Ensure you have the latest SDK installed for the best experience.
+
+## License
+This project is licensed under the Apache-2.0 license - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contact
+For any questions or suggestions, please open an issue on the GitHub repository or contact the me directly.
